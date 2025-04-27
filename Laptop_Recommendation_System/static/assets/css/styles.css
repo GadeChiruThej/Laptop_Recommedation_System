@@ -1,0 +1,131 @@
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    padding: 30px;
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+form {
+    display: inline-block;
+    padding: 30px 35px;
+    background: linear-gradient(145deg, #fce4ec, #fad0c4);
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+form:hover {
+    transform: scale(1.03);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+select, input[type="text"] {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 280px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+select:focus, input[type="text"]:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
+}
+
+button {
+    padding: 14px 30px;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #2980b9, #1f618d);
+    transform: translateY(-3px);
+}
+
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    width: 95%;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    animation: fadeIn 0.8s ease-in;
+}
+
+table th, table td {
+    border: 1px solid #eee;
+    padding: 16px 22px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+table th {
+    background: #2c3e50;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+table tr:nth-child(even) {
+    background-color: #f7f9fb;
+}
+
+table tr:hover {
+    background-color: #eef2f7;
+}
+
+a {
+    display: inline-block;
+    margin-top: 25px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1f618d;
+    text-decoration: underline;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 2.2rem;
+    color: #34495e;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}
